@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h2 id="name_StudID"></h2>
+    <h1>Order your weirdly priced pizza!</h1>
+    <form>
+        
+        <h2>Pizza Base</h2>
+
+        <label for="pizzaSize">Pizza Size:</label><br>
+        <select id="pizzaSize" name="pizzaSize">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="x-large">Extra Large</option>
+        </select>
+
+        <br>
+
+        <label for="dough">Dough:</label><br>
+        <select id="dough" name="dough">
+            <option value="regular dough">Regular Dough</option>
+            <option value="regular Thin Dough">Regular Thin Crust</option>
+            <option value="regular thick dough">Regular Thick Crust</option>
+        </select>
+
+        <br>
+
+        <label for="baseSauce">Base Sauce:</label><br>
+        <select id="baseSauce" name="baseSauce">
+            <option value="pesto sauce">Pesto Sauce</option>
+            <option value="red sauce">Red Sauce</option>
+            <option value="white sauce">White Sauce</option>
+        </select>
+
+        <br>
+
+        <label for="baseCheese">Base Cheese:</label><br>
+        <select id="baseCheese" name="baseCheese">
+            <option value="regular">Regular</option>
+            <option value="mozzarella">Mozzarella</option>
+        </select>
+
+        <h2>Toppings</h2>
+
+        <label for="peppers">Peppers:</label><br>
+        <select id="peppers" name="peppers">
+            <option value="no peppers">No Peppers</option>
+            <option value="green peppers">Green Peppers</option>
+            <option value="red peppers">Red Peppers</option>
+            <option value="jalapeno peppers">Jalapeno Peppers</option>
+        </select>
+
+        <br>
+
+        <input type="checkbox" id="tomatoes" name="tomatoes" value="Tomatoes">
+        <label for="tomatoes">Tomatoes</label><br>
+
+        <input type="checkbox" id="onions" name="onions" value="Onions">
+        <label for="onions">Onions</label><br>
+
+        <h2>Meat</h2>
+
+        <input type="checkbox" id="chicken" name="chicken" value="Chicken">
+        <label for="chicken">Chicken</label><br>
+
+        <input type="checkbox" id="beef" name="beef" value="Beef">
+        <label for="beef">Beef</label><br>
+
+        <input type="checkbox" id="pork" name="pork" value="Pork">
+        <label for="pork">Pork</label><br>
+
+        <br>
+
+        <h2>Extra Cheese</h2>
+
+        <input type="checkbox" id="regular" name="regular" value="Regular">
+        <label for="regular">Regular</label><br>
+
+        <input type="checkbox" id="mozzarella" name="mozzarella" value="Mozzarella">
+        <label for="mozzarella">Mozzarella</label><br>
+
+        <input type="checkbox" id="feta" name="feta" value="Feta">
+        <label for="feta">Feta</label><br>
+
+        <input type="checkbox" id="parmesan" name="parmesan" value="Parmesan">
+        <label for="parmesan">Parmesan</label><br>
+
+        <input type="checkbox" id="blueCheese" name="blueCheese" value="BlueCheese">
+        <label for="blueCheese">D'or blu (Blue) Cheese</label><br>
+        
+        <h2>Quantity</h2>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+    
+    </form>
+
+    <button>Order</button>
+
+    
+    <p id="pizzaDescription"></p>
+    <p id="totalCost"></p>
+
+</body>
+</html>

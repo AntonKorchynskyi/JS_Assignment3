@@ -1,0 +1,51 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin: auto;
+    font-size: 1.1rem;
+    background-color: lightgray;
+    margin-left: 0.5em;
+}
+
+* {
+    margin-bottom: 0.7em;
+}
+
+#name_StudID {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+input,
+select,
+label {
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: large;
+}
+
+button {
+    padding: 1.5em;
+    padding-left: 6.85em;
+    padding-right: 6.85em;
+    border-radius: 0.5rem;
+    border: 5px solid black;
+    background-color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#pizzaDescription {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 25%;
+}
+
+#totalCost {
+    font-size: 1.5rem;
+    font-style: italic;
+}
